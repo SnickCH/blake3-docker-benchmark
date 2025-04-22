@@ -69,8 +69,18 @@ docker compose up
 I will shortly provie an image that can be used from the docker hub. So you don't need to build your own image
 
 ## Performance Tests
+### Share your performance values
+In the folder "performance-value" will be all the perforamnce values that people share. 
+Please consider keeping the formating and also adding the information about your system and OS
+```
+https://github.com/SnickCH/blake3-docker-benchmark/blob/main/performance-values/orangepi5plus_32GB
+```
 ### Orange Pi5 Plus (32GB RAM)
 
+This is an example of the output (fomrated). For the full specification of the test, check
+```
+https://github.com/SnickCH/blake3-docker-benchmark/blob/main/performance-values/orangepi5plus_32GB
+```
 | Number Worker | duration (seconds)        | Hashes total | Hashes per Second |
 |--------------:|--------------------------:|-------------:|-------------------:|
 |             1 |                        10 |     6 933 719|        693 371.90  |
