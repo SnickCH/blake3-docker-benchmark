@@ -1,6 +1,7 @@
 ## Performance Tests
 ### Orange Pi5 Plus (32GB RAM)
 
+Model: orange Pi5 Plus 32GB RAM
 TestDone: 21.04.2025
 OS: v25.2.3 for Orange Pi 5 Plus running Armbian Linux 6.1.99-vendor-rk35xx
 Packages:     Debian stable (bookworm)
