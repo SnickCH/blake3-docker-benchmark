@@ -1,0 +1,11 @@
+#version: '3.8'
+
+services:
+  blake3-benchmark:
+    build: .
+    environment:
+      - CONCURRENT_WORKERS=4
+      - SECONDS_TO_RUN=10
+      - FIXED_STRING=HelloWorld
+    volumes:
+      - ./results:/results
